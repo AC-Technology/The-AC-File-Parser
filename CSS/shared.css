@@ -1,0 +1,49 @@
+.flexed {
+    display: flex;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-jc {
+    justify-content: center;
+}
+
+.f-jb {
+    justify-content: space-between;
+}
+
+.f-ja {
+    justify-content: space-around;
+}
+
+.f-je {
+    justify-content: space-evenly;
+}
+
+.f-ac {
+    align-items: center;
+}
+
+.f-a {
+    align-items: s;
+}
+
+.f-ac {
+    align-items: center;
+}
+
+.f-center {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.f-ju {
+    justify-content: baseline;
+    align-items: baseline;
+}
