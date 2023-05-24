@@ -5,6 +5,15 @@ function addReportNameOptions(fileName) {
   $("#report_name").val("-Select-");
   let hasReportName = true;
   switch ($("#insurance_carrier").val()) {
+
+    case "Kemper":
+      $("#kemper_warning").show();
+      hasReportName = false;
+      setTimeout(function() {
+        $("#kemper_warning").hide(); // Hide the Kemper warning after 20 seconds
+      }, 15000); // 20,000 milliseconds = 20 seconds
+      break;
+
     case "Guard":
       $("#report_name").append([
         new Option("Calendar Year", "Calendar Year"),
