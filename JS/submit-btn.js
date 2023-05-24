@@ -6,7 +6,7 @@ function getReportName(hasReportName,fileType) {
       return
     }
     fileName = `${$("#insurance_carrier").val()} (${$( "#report_name").val()}) - ${$("#report_month").val()} ${$("#report_year").val()}${fileType}`;
-  } 
+  }
   else {
     fileName = `${$("#insurance_carrier").val()} - ${$("#report_month").val()} ${$("#report_year").val()}${fileType}`;
   }
@@ -27,7 +27,7 @@ async function submitExcelFile(fileName, file, userID) {
 
   var response = await $.ajax({
     method: "POST",
-    url: "https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/PresignedExcelURLs",
+    url: "https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/PresignedExcelURLs",
     data: carrier_data,
   });
 
@@ -48,6 +48,7 @@ async function submitExcelFile(fileName, file, userID) {
     data: file,
   });
 
+
   // start parser based on carrier
   if($("#generic_template").val() == 'No'){
     console.log("This file does not use the generic template")
@@ -57,7 +58,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AttuneParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/AttuneParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -69,7 +70,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/ForemostExcelParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/ForemostExcelParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -81,7 +82,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/GrangeParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/GrangeParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -93,7 +94,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/GuardParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/GuardParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -105,7 +106,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/KemperParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/KemperParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -117,7 +118,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/LibertyMutualParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/LibertyMutualParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -129,7 +130,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/MainStreetAmericaParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/MainStreetAmericaParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -141,7 +142,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/MercuryParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/MercuryParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -154,7 +155,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Nationwide&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Nationwide&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -166,7 +167,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/OhioMutualParser?filename=${fileName}&key=${key}&userID=${userID}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/OhioMutualParser?filename=${fileName}&key=${key}&userID=${userID}`,
           });
           console.log("success");
         } catch (error) {
@@ -178,7 +179,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Progressive&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Progressive&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -190,7 +191,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Safeco&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Safeco&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -202,7 +203,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/StateAutoParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/StateAutoParser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -214,7 +215,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/National_General_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/National_General_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -226,7 +227,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/USLI_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/USLI_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -238,7 +239,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/Allstate_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+            url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/Allstate_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -255,7 +256,7 @@ async function submitExcelFile(fileName, file, userID) {
       $(".results-modal").fadeIn()
       var lambdafunction = await $.ajax({
         method: "GET",
-        url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/Generic_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
+        url: `https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/Generic_Parser?filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
       });
       console.log("success");
     } catch (error) {
@@ -267,7 +268,7 @@ async function submitExcelFile(fileName, file, userID) {
     console.log("There was an error or a option was not slected for the generic template")
   }
 }
-  
+ 
 async function submitPdfFile(fileName, file, userID) {
   let insuranceCarrier = document.getElementById("insurance_carrier").value;
   console.log(insuranceCarrier);
@@ -282,7 +283,7 @@ async function submitPdfFile(fileName, file, userID) {
 
   var response = await $.ajax({
     method: "POST",
-    url: "https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/PresignedPDFUrls",
+    url: "https://5hw0bxn7vb.execute-api.us-east-1.amazonaws.com/default/PresignedPDFUrls",
     data: carrier_data,
   });
 
