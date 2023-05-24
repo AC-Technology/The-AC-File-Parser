@@ -154,7 +154,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Nationwide&filename=${fileName}&key=${key}&userID=${userID}`,
+            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Nationwide&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -178,7 +178,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Progressive&filename=${fileName}&key=${key}&userID=${userID}`,
+            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Progressive&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
@@ -190,7 +190,7 @@ async function submitExcelFile(fileName, file, userID) {
           $(".results-modal").fadeIn()
           var lambdafunction = await $.ajax({
             method: "GET",
-            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Safeco&filename=${fileName}&key=${key}&userID=${userID}`,
+            url: `https://cv7022xmr7.execute-api.us-east-1.amazonaws.com/default/AC_File_Parser?carrier=Safeco&filename=${fileName}&key=${key}&userID=${userID}&uploadedFileName=${encodeURIComponent(file.name)}`,
           });
           console.log("success");
         } catch (error) {
