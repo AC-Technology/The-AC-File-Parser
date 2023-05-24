@@ -1,0 +1,63 @@
+, , , , , , ,Written Premi,Earned Premium, ,Losses,Incurred,Loss Ratio, , ,Quotes,New,Policies,Close Ratio, ,Inforce Policies, , ,Quoting,Producing*, 
+1,AMSID,Agency,Address Lr,City,State,2022-YTD,2021 YTD,2022-YTD,2021-YTD,2022-YTD,2021-YTD,2022-1 YTD,2021-YTD,2022-YTD,2021 YTD,2022-YTD,2021- YTD,2022-YTD,2021- YTD,2022 YTD,2021-YTD,2022-YTD,2021-YTD,2022-YTD,2021-YTD
+2,10032520,Andrew Schoch Agency LLC,130: Sandusky Ave,Bucyrus,OH,2772.1,3162.,$963,"$1,933",$0,-$300,0.0%,-15.5%,3,13,2,7,66.7%,53.8%,5,6,Y,Y,N, 
+3,10032524,Joe Potts Insurance Agency LLC,12300 Lorain Ave,Cleveland,OH, ,39.28, ,"$1,066", ,$0, ,0.0%, ,81, ,1, ,1.2%, ,1, ,Y, ,N
+4,10032528,Napoles Insurance Services LLC,7811 Mad River Rd,Dayton,OH,22346.73,17445.22,"$24,597","$23,931","$4,039","-$2,001",16.4%,-8.4%,171,161,8,4,"4,7%",2.5%,55,52,Y,Y,Y,N
+5,10032532,Ed Troy Insurance Agency Inc,1325 River 112,Plains,PA,0, ,$0, ,$0, , , ,2, ,0, ,0.0%, ,0, ,Y, ,N, 
+6,10032539,Tyler Mooney,5 Boulder Ridge Rd Ste 307,Asheville,NC,-1976.39,8034.54,"$4,685","$8,901","-$7,934","$51,040",-169.4%,573.4%,1,25,0,10,0.0%,40.0%,10,24,N,Y,N,Y
+7,10032544,Eshbaugh Insurance Services 111,101 5th SE Ste A,Barberton,OH,0,0,$0,$0,$0,$0, , ,111,27,0,0,0.0%,0.0%,0, ,Y,Y,N,N
+8,10032566,Hometown Insurance LLC,1862 Auburn Rd Ste 101,Dacula,GA,6312,2466.41,"$5,612","$5,483","$1,021","$25,827",18.2%,471.1%,1,2,1,0,100.0%,0.0%,5,5,N,Y,N,N
+9,10032570,Harlow Insurance IC,848 30th S,Heath,OH,3850.82,4045.92,"$1,831","$2,149",$0,$0,0.0%,0.0%,3,7,1,3,33.3%,42.9%,5,5,Y,Y,N,N
+10,10032576,Papas Associates LLC,1650 Market Ste 21,Akron,OH,5464.54,7139.28,"$4,943","$4,530",$0,$0,0.0%,0.0%,16,41,1,6,6.3%,14.6%,15,17,Y,Y,N,Y
+11,10032585,Sellman Insurance Group,38 Monument Sq,Urbana,OH,6414.96,9781.37,"$6,776","$8,086","$11,079","-$3,994",163.5%,-49.4%,44,21,2,0,4.5%,0.0%,19,26,Y,Y,N,N
+12,10032600,Joseph Fowler,408 E Wendover Ave,Greensboro,NC,3537.45,12689.36,"$3,992","$6,386","$1,025","$2,315",25.7%,-36.3%,127,95,2,6,1.6%,6.3%,11,18,Y,Y,N,N
+13,10032735,Scott Stasko,Market St,Nanticoke,PA,-104.09,1269.69,"$1,150",$7,$0,$0,0.0%,0.0%,1,2,0,1,0.0%,50.0%,2,1,N,Y,N,N
+14,10032751,Harlan Rossmann Agency Inc,7870 Highway 55,Golden Valley,MN,-4209.71,0,"$1,028",$0,$0,$0,0.0%, ,1,2,0,0,0.0%,0.0%,1, ,N,Y,N,N
+15,10032766,Kevin Halpin Agency Inc,308 h Main Ste 600,Chalfont,PA,2010.18,1156.71,$994,$166,$0,$0,0.0%,0.0%,1,31,0,1,0.0%,3.2%,1,1,N,Y,N,N
+16,10032838,The Dansby Group LLC,1521 Custer Rd Ste 2850,McKinney,TX,o,0,$0,$0,$0,$0, , ,3,16,0,0,0.0%,0.0%,0,0,Y,Y,N,N
+17,10033061,Neil Brock Associates Inc,421 Catawba St,Belmont,NC,652.03,1043.49,$453,"$1,759",$0,$0,0.0%,0.0%,4,7,0,0,0.0%,0.0%,3,6,Y,Y,N,N
+18,10033075,Oregon Insurance LLC,815 Lancaster SE,Salem,OR,0,2360.38,$650,"$2,991",$0,"$8,143",0.0%,272.3%,52,0,0,0,0.0%, ,1,4,Y,N,N,N
+19,10033101,Mike Thompson Insurance,5295 Hwy Stel,Aubrey,TX,-146.34,0,$73,$0,$0,$0,0.0%, ,33,79,0,0,0.0%,0.0%,0,0,Y,Y,N,N
+20,10033113,Jill E Clinger Agency LLC,827 E 2nd S,Defiance,OH,o,408,$275,$393,$0,$0,0.0%,0.0%,0,1,0,0, ,0.0%,1,2,N,N,N,N
+21,10033130,McDonald Insurance LLC,1612 Westgate Cir Ste 218,Brentwood,TN,0,2401.72,"$1,210","$1,816",$0,$0,0.0%,0.0%,2,17,0,1,0.0%,5.9%,4,13,Y,Y,N,N
+22,10033165,Hodge Ethridge Insurance & Financial,1501 Palmetto St,Florence,SC,24384.81,33417.24,$25.027,"$16,915","$3,971","$13,048",15.9%,77.1%,71,129,7,12,9.9%,9.3%,36,51,Y,Y,Y,Y
+23,10033185,"BT, Insurance Inc",Bell Rd,Nashville,TN,3874.56,11460.74,"$6,350","$7,625",$0,$0,0.0%,0.0%,49,74,1,9,2.0%,12.2%,24,35, ,Y,N,Y
+24,10033218,The David Chudyk Agency LLC,916 N 1st St,Seneca,SC,o,200.38,$0,"$1,487",$0,$0, ,0.0%,45,22,0,0,0.0%,0.0%,o,3,Y,Y,N,N
+25,10033221,David Gluckle Insurance Agency 111,4213 Holland Sylvania Rd,Toledo,OH,726,416.32,$363,$451,$0,$0,0.0%,0.0%,0,0,0,0, , ,2,2,N,N,N,N
+26,10033310,McAfee Insurance Agency LLC,248 E Chestnut Hill Rd,Newark,DE,3627.27,8937.12,"$3,467","$6,901",$0,$50,0.0%,0.7%,1,7,0,3,0.0%,42.9%,5,8,N,Y,N,N
+27,10033335,Dewberry Insurance Agency,5700 (irkwood Hwy Ste 103,Wilmington,DE,1674.24,1733.48,$670,$652,$0,$0,0.0%,0.0%,1,8,1,1,100.0%,12.5%,4,3,N,Y,N,N
+28,10033398,Skala Insurance Agency LLC,17747 Chillicothe Rd Ste 201,Chagrin Falls,OH,1242,982.39,$613,$381,so,so,0.0%,0.0%,51,122,0,0,0.0%,0.0%,1,1,Y,Y,N,N
+29,10033407, ,11651 State Route 44,Mantua,OH,0,o,$0,$0,$0,$0, , ,29,28,0,0,0.0%,0.0%,0,o,Y,Y,N,N
+30,10033829,Sheets Insurance Agency LLC,254 Hunt,Bear,DE,0,4264.12,$892,"$2,939",$0,$0,0.0%,0.0%,0,11,0,0, ,0.0%,0,2,N,Y,N,N
+31,10033959,Soliman Ins Fin Services LLC,17145 51st Ave Ste 106,Glendale,AZ,19441.87,721.01,"$5,718","$1,884",$0,"-$5,616",0.0%,-298.1%,611,102,13,1,2.1%,1.0%,21,7,Y,Y,Y,N
+32,10033967,D'Arcy Sampsell LLC,28 Bound Ave,Milton,PA,0,604.92,$452,$26,$0,$0,0.0%,0.0%,147,75,0,1,0.0%,1.3%,2,1, ,Y,N,N
+33,10033973,RM Bush Company,340 Eisenhower Dr Bldq 300 A,Savannah,GA,0, ,$0, ,$0, , , ,1, ,0, ,0.0%, , , ,N, ,N, 
+34,10034207,Cambridge Insurance Group LLC,1983 E Wheeling Ave,Cambridge,OH,8160.78,12438.76,"$7,246","$7,512",$0,"$20,189",0.0%,268.8%,16,21,10,13,62.5%,61.9%,35,43,Y,Y,Y,Y
+35,10034228,Ludewig Insurance,9 North:,New Martinsville,WV,1339.05,1517.7,"$2,266","$1,165",$0,$0,0.0%,0.0%,1,0,0,0,0.0%, ,3,2,N,N,N,N
+36,10034294, ,2448 National Rd,Wheeling,WV, ,0, ,$0, ,$0, , , ,1, ,0, ,0.0%, , , ,N, ,N
+37,10034407,SteveMcDonald insurance Anoncull,117 E Main St,Hebron,OH,5567.31,3647.08,"$3,034","$2,312",$0,$0,0.0%,0.0%,2,4,0,1,0.0%,25.0%,3,3,y,y,N,N
+38,10034438, ,5820 Stage Rd,Bartlett,TN,3105.71,0,"$2,907",$0,$0,$0,0.0%, ,30,0,2,0,6.7%, ,6,0,Y,N,N,N
+39,10034470,McDonald Insurance LLC,15C Old Humboldt Rd,Jackson,TN,246.68,-887.36,$268,$226,$0,$0,0.0%,0.0%,2,6,0,1,0.0%,16.7%,1,1,Y,Y,N,N
+40,10034508, ,905 Windover Rd,Jonesboro,AR, ,0, ,$0, ,$0, , , ,1, ,0, ,0.0%, ,o, ,N, ,N
+41,10034515,Cambridge Insurance Group LLC,853 9 High St,Columbus,OH,1800.27,514.37,$1.055,$1.209,"$8,282",so,785.0%,0.0%,4,3,1,0,25.0%,0.0%,3,4,Y,Y,N,N
+42,10034530,McMillin Insurance Group Inc,807 Main St,Paris,KY,1338.53,2583.2,$827,$1.700,"$10,000","-$9,294",1209.7%,"-546,8%",269,178,1,6,0.4%,3.4%,6,11,y,Y,N,N
+43,10034561,Wade Hunt Insurance Group us,502 102,Denton,TX,6945.3,8523.99,"$5,840",$6.156,"-$22,893",$0,-392.0%,0.0%,170,230,0,0,0.0%,0.0%,20,27,Y,Y,N,N
+44,10034596,Michael Buffo Agency,2605 Sunset Blvd,Steubenville,OH,21198.56,32339.47,"$20,727","$23,733","$11,304","$3,743",54.5%,15.8%,45,73,19,41,42.2%,56.2%,84,94,Y,Y,Y,Y
+45,10034601, ,2426 Pennsylvania Ave,Weirton,WV,4177.88,3662.25,$1.834,"$2,280",sn,$0,0.0%,0.0%,17,21,4,6,23.5%,28.6%,12,12,Y,Y,N,N
+46,10034708,Michelle Allen Agency Inc,323 Westview Dr,Villa Rica,GA, ,o, ,$0, ,$0, , , ,2, ,0, ,0.0%, , , ,Y, ,N
+47,10034773,Stan Prajzner Inc,401 Lakeside Dr,Southampton,PA,0,0,$229,$208,$0,so,0.0%,0.0%,0,3,0,0, ,0.0%,1,1,N,Y,N,N
+48,10034879,All Insurance Services Inc,701 Central Ave,St Michael,MN,9895.83,3379.28,"$3,247",$390,$553,$0,17.0%,0.0%,12,4,4,4,33.3%,100.0%,16,7,Y,Y,N,N
+49,10034899,McAfee Insurance Agency LLC,1816 St,Wilmington,DE,7326.14,21975.52,"$14,777","$16,588","$14,852","$12,649",100.5%,76.3%,22,79,1,11,"4,5%",13.9%,15,19,y,y,N,Y
+50,10035185,Michael McGowen Agency Inc,607 2nd St,Albemarle,NC,1959,1584,"$2,488","$1,695",$0,$0,0.0%,0.0%,3,10,0,0,0.0%,0.0%,5,4,Y,Y,N,N
+51,10035195, ,127 : Greene St,Wadesboro,NC,8117.84,6718.3,"$5,600","$6,961",-$636,$150,-11.4%,2.2%,3,9,1,1,33.3%,11.1%,9,14,Y,Y,N,N
+52,10035205,Mark Shannon Dean,3604 36th St,Nitro,wv,-2668.33,-130.2,$957,$751,$0,$0,0.0%,"0,0%",7,7,0,0,0.0%,0.0%,9,9,Y,Y,N,N
+53,10035228,Gerber Insurance Agency Inc,63 Executive Center Dr,Chillicothe,OH, ,o, ,$0, ,so, , , ,1, ,0, ,0.0%, ,0, ,N, ,N
+54,10035234, , , ,OH,886.61,1024.02,$376,$240,$83,$644,21.9%,267.9%,0,0,0,0, , ,1,2,N,N,N,N
+55,10035301,The Roark Agency LLC,721 Bellefonte Rd,Flatwoods,KY,9180.11,8352.48,"$4,493","$3,497","$10,400","$15,475",231.5%,"442,5%",12,27,8,12,66.7%,44.4%,14,21,y,Y,Y,Y
+56,10035306, ,333 Carol Malone Blvd,Grayson,KY,5364.48,6307.4,"$4,294","$2,725",so,$0,0.0%,0.0%,22,59,8,8,"36,4%",13.6%,11,12,y,y,Y,y
+57,10035456,Jon Parrack Insurance,809 Viand St,Point Pleasant,WV,10303.21,5248.04,"$5,793","$3,546","$6,630",so,114.4%,0.0%,28,22,10,6,35.7%,27.3%,31,16,Y,Y,Y,N
+58,10035581,Warren Insurance Group LLC,4582 Cumberland Rd Ste 110,Favetteville,NC,413.46,5829,$964,$3.545,$0,$482,0.0%,13.6%,3,5,0,1,0.0%,20.0%,2,6,y,Y,N,N
+59,10036151,Sam Buentello Insurance Agoneu,2301 Bagdad Rd Ste 302,Cedar Park,TX,o,0,so,$0,$0,so, , ,1,36,0,0,0.0%,0.0%, ,o,N,Y,N,N
+60,10036281,Cover Me Group UC,1922 Hwy N Ste C,Tyrone,GA, ,2010,so,$966,so,so,0.0%,0.0%,0,0,0,0, , , ,1,N,N,N,N
+61,10036320,Roop Ins 6 Financial Services,1557 Robert Byrd Dr,Beckley,WV,6959.48,13362.76,"$5,345","$4,441",so,so,0.0%,0.0%,18,41,3,15,16.7%,"36,6%",19,21,Y,Y,N, 
+62,10036346,Aaron Adams Inc,3075 1 Market Ave Ste 1,Fayetteville,AR,2194.24,o,$148,$51,$0,$0,0.0%,0.0%,6,2,3,0,50.0%,0.0%,4,1,Y,N,N,N
