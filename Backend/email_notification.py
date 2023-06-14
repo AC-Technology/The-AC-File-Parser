@@ -2,7 +2,7 @@ import smtplib
 
 email = 'theacnotifications@gmail.com'
 password = 'acsetup!1'
-contact = 'ryan.tran@siegetechnology.com'
+contact = 'lbartlett@jointheac.com'
 
 server = smtplib.SMTP("smtp.gmail.com",587)
 
